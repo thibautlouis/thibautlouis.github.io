@@ -1,0 +1,175 @@
+/*********************************************/
+/* Feuille de style pour le thème "Iceberg"  */
+/* Fichier dans le domaine public            */
+/*********************************************/
+
+#theme { 
+ background-color: white;
+ color: black;
+ font-family: Verdana, Charcoal, Geneva, "Luxi Sans", sans-serif;
+ font-size: 12px;
+ margin-top: 0;
+ margin-left: 0;
+}
+
+/* Contenant */
+
+#tout {
+ background: white;
+ border: solid 4px silver;
+ margin: 10px auto;
+ padding: 0;
+ position: relative;
+ width: 1000px;
+}
+
+/***********************/             
+/* Barre de navigation */
+/***********************/
+
+#nav { 
+ background-color: white;
+ border-bottom: solid 5x silver;
+ padding: 0;
+ width: 100%;
+}
+
+#nav ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0.5em 1em 0.5em 1em;
+}
+
+#nav li { 
+ display: inline;
+ font: bold 1.2em "Trebuchet MS", sans-serif;
+ padding: 0 1em;
+}
+
+#nav a:link { color: black; }
+
+#nav a:visited { color: #343536; }
+
+#nav a.actif { color: white; }
+
+/******************/
+/* Corps du texte */
+/******************/
+
+#corps { 
+ background: white;
+ padding-bottom: 10px;
+}
+
+/**************/
+/* Généralités*/
+/**************/
+
+/* Liens */
+
+a { text-decoration: none; }
+
+a:link { color: blue; }   /* lien non encore visité */
+
+a:visited { color: purple; } /* lien visité */
+
+a:hover { text-decoration: underline; } /* lien survolé par le curseur de la souris */
+
+/* Hiérarchisation : titres, sous-titres */
+
+h1 { 
+  color: black;
+  font: normal 200% "Trebuchet MS", Verdana, sans-serif;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 10px;
+} 
+
+h2 { 
+  background-color: white;
+  font: normal 160% "Trebuchet MS", Verdana, sans-serif;
+  margin-left: 0;
+  padding-left: 10px;
+} 
+
+h3 { 
+  font: bold 140% "Trebuchet MS", Verdana, sans-serif;
+  padding-left: 10px;
+}
+
+h4 { 
+  font: bold 120% "Trebuchet MS", Verdana, sans-serif;
+  padding-left: 10px;
+}
+
+h5 { 
+  font: italic 110% "Trebuchet MS", Verdana, sans-serif;
+  padding-left: 10px;
+}
+
+h6 { 
+  font-variant: small-caps;
+  padding-left: 10px;
+}
+
+/* Texte */
+
+p { 
+ margin-right: 0;
+ padding-left: 10px;
+ padding-right: 10px;
+ text-align: justify;
+}
+
+blockquote p { 
+ color: #40aaff;
+ font-size: 90%;
+}
+
+code {
+ font-family: monospace; /* code informatique */
+}
+
+/* Images */
+
+img { 
+ border-width: 0; /* pas de bordure sur les images */
+}
+
+/* Tableaux */
+
+table { 
+ border: solid 1px;
+ border-collapse: collapse;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+table td, table th {  
+ border: solid 1px black;
+ margin: 0;
+ padding: 0.7em;
+}
+
+th {  
+ font-weight: bold; 
+}
+
+caption { 
+ font-size: 120%;
+ font-weight: bold;
+ margin-left: auto;
+ margin-right: auto;
+ padding-bottom: 1em;
+}
+
+/* Lexiques */
+
+dt {   
+   font-weight: bold;
+   padding-bottom: .5em; 
+}
+
+dd {   
+   padding-bottom: 1.5em; 
+}
