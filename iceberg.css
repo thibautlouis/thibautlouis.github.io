@@ -69,7 +69,7 @@
 
 a { text-decoration: none; }
 
-a:link { color: blue; }   /* lien non encore visité */
+a:link { color: #25599F; }   /* lien non encore visité */
 
 a:visited { color: purple; } /* lien visité */
 
