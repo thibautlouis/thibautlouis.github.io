@@ -7,7 +7,7 @@
  background-color: white;
  color: black;
  font-family: Verdana, Charcoal, Geneva, "Luxi Sans", sans-serif;
- font-size: 12px;
+ font-size: 14px;
  margin-top: 0;
  margin-left: 0;
 }
@@ -16,8 +16,8 @@
 
 #tout {
  background: white;
- border: solid 4px silver;
- margin: 10px auto;
+ border: solid 2px gray;
+ margin: 4px auto;
  padding: 0;
  position: relative;
  width: 1000px;
