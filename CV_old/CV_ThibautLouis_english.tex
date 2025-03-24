@@ -1,0 +1,183 @@
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage[hidelinks]{hyperref} 
+\setcounter{totalnumber}{8}
+\usepackage[usenames,dvipsnames]{xcolor}
+
+\newcommand{\TIB}[1]{\textcolor{blue}{#1}}
+
+\name{\large{Thibaut Louis}} % Your name
+\address{  Laboratoire de Physique des 2 Infinis Irène Joliot Curie, 15 Rue Georges Clemenceau 91400 Orsay  \\ 
+louis@lal.in2p3.fr} % Your phone number and email
+
+\begin{document}
+
+
+\begin{rSection}{Research}
+\vspace{-0.4cm}
+\begin{table}[h]
+%%%\centering
+{\def\arraystretch{1.5}\tabcolsep=0pt
+\begin{tabular}{p{0.15\linewidth}p{0.75\linewidth}}
+  2017--present & CNRS permanent researcher, Laboratoire de Physique des 2 Infinis Irène Joliot Curie \\
+  2015--2017 & Post-doctoral Research Fellow, Institut Astrophysique de Paris with Prof Joseph Silk \\
+  2014--2015 & Post-doctoral Research Fellow, Oxford University with Prof Joanna Dunkley \\
+\end{tabular}%
+}
+\end{table}
+\end{rSection}
+\vspace{-0.6cm}
+
+
+\begin{rSection}{Education}
+\vspace{-0.4cm}
+\begin{table}[h]
+%%%\centering
+{\def\arraystretch{1.5}\tabcolsep=0pt
+\begin{tabular}{p{0.15\linewidth}p{0.75\linewidth}}
+
+2011--2014 & University of Oxford, Department of Astrophysics and Christ Church College;
+PhD in Astrophysics;	Advisor: Joanna Dunkley \\
+2010 & Master in Theoretical Physics, Ecole Normale Supérieure de Lyon \\
+
+\end{tabular}%
+}
+\end{table}
+\vspace{-0.6cm}
+\end{rSection}
+
+\begin{rSection}{Major Collaborations}
+\vspace{-0.4cm}
+\begin{table}[h]
+%%%\centering
+{\def\arraystretch{1.5}\tabcolsep=0pt
+\begin{tabular}{p{0.15\linewidth}p{0.75\linewidth}}
+2018--present & Lead of the power spectrum and likelihood group of Simons Observatory \\
+2016--present & Member of the Simons Observatory collaboration \\
+2011--present & Member of the ACT collaboration (ACT/ACTPol/AdvACT) \\
+\end{tabular}%
+}
+\end{table}
+\vspace{-0.6cm}
+\end{rSection}
+
+
+\begin{rSection}{Supervision of	students and postdocs}
+\vspace{-0.4cm}
+
+\begin{table}[h]
+%%\centering
+{\def\arraystretch{1.5}\tabcolsep=0pt
+\begin{tabular}{p{0.15\linewidth}p{0.75\linewidth}}
+Post-doc  & Hiroaki Imada (2018--2020) \\
+Thesis  & Adrien La Posta (2020--2023), I acted as co-supervisor for Sylvain Vanneste (2016--2019) \\
+Undergrad   & Adam Soussana (2018), Magdy Morshed (2018) 
+\end{tabular}%
+}
+\end{table}
+\vspace{-0.6cm}
+\end{rSection}
+
+
+\begin{rSection}{Public codes}
+All the codes I have written are in the public domain, some of them can be accessed on my \href{https://github.com/thibautlouis}{\TIB{github}}, others on the Simons Observatory \href{https://github.com/simonobs}{\TIB{github}}. Here is an non exhaustive list of codes for which I have important contributions 
+\begin{enumerate}
+\item I am the main developper of \href{https://github.com/simonsobs/pspy}{\TIB{pspy}}, a public code allowing to estimate power spectra (and pure power spectra) of angular maps with Healpix and CAR pixellisation as well as their associated analytical covariance matrices. The code also implements the Toeplitz approximation that we have proposed in \href{https://ui.adsabs.harvard.edu/abs/2020PhRvD.102l3538L/abstract}{\TIB{this paper}}.
+\item I am  the main developper of \href{https://github.com/simonsobs/PSpipe}{\TIB{PSpipe}}, a pipeline generator allowing to reproduce the most recent ACTPol and Planck results. 
+\item I am one of the main developper of \href{https://github.com/simonsobs/mflike}{\TIB{mflike}}, which implements the multifrequency likelihood of the forthcoming Simons Observatory experiment. 
+
+\end{enumerate}
+
+\end{rSection}
+
+
+\begin{rSection}{Publications}
+At the time of writing this CV, I have authored 75 publications, a list can be accessed on \href{https://arxiv.org/search/astro-ph?searchtype=author&query=Louis\%2C+T}{\TIB{arXiv}}. Some highlighted ones follow
+\begin{enumerate}
+\item I have led the power spectrum analysis of the first and second year of ACTPol data, resulting in \href{https://ui.adsabs.harvard.edu/abs/2017JCAP...06..031L}{\TIB{this paper}} with over 100 citations, the data release corresponding to this paper can be accessed on \href{https://lambda.gsfc.nasa.gov/product/act/actpol_prod_table.cfm}{\TIB{LAMBDA}}.
+\item I have led the data comparison between from the ACT experiment and the Planck experiment resulting in \href{https://ui.adsabs.harvard.edu/abs/2014JCAP...07..016L}{\TIB{this paper}} demonstrating the agreement between the ground and space experiments.
+\item I have studied in details what physical information can be obtained from clusters of galaxies using the next generation of ground based CMB experiments, resulting in the publication of few papers on: \href{https://ui.adsabs.harvard.edu/abs/2017PhRvD..95d3517L}{ \TIB{Cluster lensing}},  \href{https://ui.adsabs.harvard.edu/abs/2016PhRvD..94d3522A}{ \TIB{kSZ effect}}, \href{https://journals.aps.org/prd/abstract/10.1103/PhysRevD.96.123509}{\TIB{pSZ effect}} \\
+
+\end{enumerate}
+
+
+
+\end{rSection}
+
+\vspace{2cm}
+
+
+\begin{rSection}{Teaching, outreach and Institutional Responsibilities}
+\vspace{-0.4cm}
+\begin{table}[h]
+%%%\centering
+{\def\arraystretch{1.5}\tabcolsep=0pt
+\begin{tabular}{p{0.15\linewidth}p{0.75\linewidth}}
+2022--present &   Member of the scientific council DIM Universe  \\
+2022--present &   Lectures on "Cosmology of the dark Universe"  Université Paris Saclay. \\
+2021--present &   Lectures on "Statistical methods for cosmology"  Euclid summer school. \\
+2021--present &  Coordinator of the transverse groups "Flavor" and "Cosmology" at IJCLab. \\
+2013--present &  I am a regular referee for Physical Review D and Physical Review Letters .  \\
+2013--present & Participation to numerous outreach events: stargazing at Oxford, "Fete de la science" at IAP and LAL \\
+2018--2020 &  Organisation of Seminars, Laboratoire de l'Accélérateur Linéaire  \\
+2015--2017 &  Founder and co-organiser of Cosmology Coffee, Institut Astrophysique de Paris  \\
+2015--2017 &  Postdoc representative for the Laboratory Council, Institut Astrophysique de Paris \\
+2013--2014 &  Tutorials for the 3rd year course : General Relativity and Cosmology, Oxford University \\
+\end{tabular}%
+}
+\end{table}
+\vspace{-0.6cm}
+\end{rSection}
+
+
+\begin{rSection}{Talk and Seminars }
+Below is a list of recent talks and seminars 
+\begin{table}[h]
+%%%\centering
+{\def\arraystretch{1.5}\tabcolsep=0pt
+\begin{tabular}{p{0.15\linewidth}p{0.75\linewidth}}
+2021 & Power spectrum from the latest AdvACT data, talk at Princeton University (remote) \\
+2019--2020 & The Simons Observatory Power Spectrum Pipeline, talk at Berkeley University and Princeton University \\
+2019 & Hunting for new physics with the Simons Observatory, seminar given at  IAP and  LPNHE (the seminar has been recorded: \href{https://www.youtube.com/watch?v=1XnZhEU1WgE}{\TIB{youtube}})  \\
+2018 & Physics with the next generation Ground Based CMB experiments, talk at IAP, MITP Workshop, PNCG \\
+2016--2017 & ACTPol results and prospects for CMB S4, seminar given at LAL, IAP, APC,  LPNHE and Cambridge\\
+2016 & Reconstructing cosmic growth with kSZ observations, talk at IAP and l'APC \\
+2016 & Gravitational lensing and cross-correlation, talk at l'Instituto de Física Teórica Madrid \\
+2015 & Measuring the effect of clusters on the CMB sky, talk at IAP \\
+2015 & ACTPol power spectra, talk at Princeton University, Oxford University
+\vspace{0.5cm}
+\end{tabular}%
+}
+\end{table}
+\vspace{-0.6cm}
+\end{rSection}
+
+
+\begin{rSection}{References }
+
+\begin{enumerate}
+\item Prof Joanna Dunkley, jdunkley@princeton.edu
+\item Prof Lyman Page, page@princeton.edu
+\item Prof Joseph Silk, silk@iap.fr
+\item Prof David Spergel, dns@astro.princeton.edu
+\end{enumerate}
+
+\end{rSection}
+
+
+\end{document}
